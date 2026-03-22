@@ -1,10 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120">
-  <defs>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6a7ecc" />
-      <stop offset="100%" stop-color="#b86cd1" />
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#080808" />
   
-  <text x="50%" y="54%" fill="url(#textGrad)" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="100" text-anchor="middle" dominant-baseline="central" letter-spacing="2">ANIRUDH</text>
+  <g stroke="#3ba547" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Left antler -->
+    <path d="M 200 240 L 165 120" />  
+    <path d="M 183 180 L 140 150" />  
+    <path d="M 170 140 L 200 120" />  
+
+    <!-- Right antler -->
+    <path d="M 312 240 L 347 120" />  
+    <path d="M 329 180 L 372 150" />  
+    <path d="M 342 140 L 312 120" />  
+  </g>
+
+  <text x="50%" y="330" font-family="'Arial Black', Impact, system-ui, sans-serif" font-weight="900" font-size="88" text-anchor="middle" letter-spacing="0">
+    <tspan fill="#fde047">ANIRUDH</tspan><tspan fill="#f97316">S</tspan>
+  </text>
 </svg>
